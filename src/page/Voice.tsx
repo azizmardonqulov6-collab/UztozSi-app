@@ -3,3 +3,4 @@ export default function Voice() {
     <div>Voice</div>
   )
 }
+// Voice
