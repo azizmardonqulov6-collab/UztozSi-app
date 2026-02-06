@@ -1,0 +1,41 @@
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ffff !important; 
+  border: 2px solid #ffff;
+  padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 20px !important;
+  font-weight: bold;
+}
+.my-custom-prev-button {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  z-index: 10;
+  cursor: pointer;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+.swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  background-color: #ccc; /* Faol bo'lmagan nuqta rangi */
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fdfdfd; /* Faol nuqta rangi (masalan: qizil) */
+  width: 15px; /* Faol nuqtani uzunroq qilish */
+  border-radius: 5px;
+}
